@@ -1,0 +1,27 @@
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Logs
+logs/
+*.log
+
+# Env
+.env
+.env.*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Backend (Spring Boot / Maven)
+backend/target/
+backend/.mvn/
+backend/.idea/
+backend/**/*.iml
+backend/logs/
+backend/upload/
