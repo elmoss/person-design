@@ -12,7 +12,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://db.thuzbnairklrqmlqmazg.supabase.co:5432/postgres?sslmode=require
     username: postgres
-    password: Wang*()0981
+    password: ${mysql_password}
   
   # Redis 配置
   data:
@@ -20,7 +20,7 @@ spring:
       host: unique-gannet-78518.upstash.io
       port: 6379
       username: default
-      password: gQAAAAAAATK2AAIncDFhYzMzNGI0ZDY4Nzg0YThjOGZkMDE2N2IwZTNhNjE3OHAxNzg1MTg
+      password: ${redis_password}
       ssl:
         enabled: true
       database: 0
